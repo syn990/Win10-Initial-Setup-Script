@@ -57,8 +57,8 @@ DisableUWPOtherDevices        # EnableUWPOtherDevices
 #SetUACLow                     
 SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
-# DisableAdminShares              
-EnableAdminShares
+ DisableAdminShares              
+#EnableAdminShares
 # DisableFirewall               
 EnableFirewall
 HideDefenderTrayIcon          # ShowDefenderTrayIcon
@@ -175,8 +175,8 @@ DisableF1HelpKey                # EnableF1HelpKey
 ### Explorer UI Tweaks ###
 ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
-ShowHiddenFiles                 # HideHiddenFiles
-ShowSuperHiddenFiles          # HideSuperHiddenFiles
+#ShowHiddenFiles                 # HideHiddenFiles
+#ShowSuperHiddenFiles          # HideSuperHiddenFiles
 ShowEmptyDrives               # HideEmptyDrives
 #ShowFolderMergeConflicts      # HideFolderMergeConflicts
 EnableNavPaneExpand             # DisableNavPaneExpand
@@ -226,8 +226,8 @@ DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-DisableOneDrive                 # EnableOneDrive
-UninstallOneDrive               # InstallOneDrive
+#DisableOneDrive                 # EnableOneDrive
+#UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore

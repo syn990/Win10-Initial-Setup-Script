@@ -28,16 +28,16 @@ DisableCamera                 # EnableCamera
 #DisableMicrophone             
 EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
-# SetP2PUpdateLocal             # SetP2PUpdateInternet          
+#SetP2PUpdateLocal             # SetP2PUpdateInternet          
 SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
-#EnableClearRecentFiles        # DisableClearRecentFiles
+# EnableClearRecentFiles        # DisableClearRecentFiles
 DisableRecentFiles            # EnableRecentFiles
 
 ### UWP Privacy Tweaks ###
 DisableUWPBackgroundApps        # EnableUWPBackgroundApps
- DisableUWPVoiceActivation     # EnableUWPVoiceActivation
+DisableUWPVoiceActivation     # EnableUWPVoiceActivation
 # DisableUWPNotifications       # EnableUWPNotifications
 # DisableUWPAccountInfo         # EnableUWPAccountInfo
 DisableUWPContacts            # EnableUWPContacts
@@ -45,7 +45,7 @@ DisableUWPCalendar            # EnableUWPCalendar
 DisableUWPPhoneCalls          # EnableUWPPhoneCalls
 DisableUWPCallHistory         # EnableUWPCallHistory
 DisableUWPEmail               # EnableUWPEmail
-# DisableUWPTasks               # EnableUWPTasks
+#DisableUWPTasks               # EnableUWPTasks
 DisableUWPMessaging           # EnableUWPMessaging
 DisableUWPRadios              # EnableUWPRadios
 DisableUWPOtherDevices        # EnableUWPOtherDevices
@@ -54,10 +54,10 @@ DisableUWPOtherDevices        # EnableUWPOtherDevices
 # DisableUWPSwapFile            # EnableUWPSwapFile
 
 ### Security Tweaks ###
-#SetUACLow                     
+# SetUACLow                     
 SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
- DisableAdminShares              
+DisableAdminShares              
 #EnableAdminShares
 # DisableFirewall               
 EnableFirewall
@@ -84,7 +84,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 SetUnknownNetworksPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableHomeGroups             # EnableHomeGroups
-#DisableSMB1                   # EnableSMB1
+# DisableSMB1                   # EnableSMB1
 # DisableSMBServer              # EnableSMBServer
 # DisableNetBIOS                # EnableNetBIOS
 # DisableLLMNR                  # EnableLLMNR
@@ -97,7 +97,8 @@ DisableIPv6                   # EnableIPv6
 # DisableNCSIProbe              # EnableNCSIProbe
 # DisableConnectionSharing      # EnableConnectionSharing
 DisableRemoteAssistance         # EnableRemoteAssistance
-EnableRemoteDesktop           # DisableRemoteDesktop
+#EnableRemoteDesktop           
+DisableRemoteDesktop
 
 ### Service Tweaks ###
 # DisableUpdateMSRT             # EnableUpdateMSRT
@@ -175,10 +176,10 @@ DisableF1HelpKey                # EnableF1HelpKey
 ### Explorer UI Tweaks ###
 ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
-#ShowHiddenFiles                 # HideHiddenFiles
-#ShowSuperHiddenFiles          # HideSuperHiddenFiles
+# ShowHiddenFiles                 # HideHiddenFiles
+# ShowSuperHiddenFiles          # HideSuperHiddenFiles
 ShowEmptyDrives               # HideEmptyDrives
-#ShowFolderMergeConflicts      # HideFolderMergeConflicts
+# ShowFolderMergeConflicts      # HideFolderMergeConflicts
 EnableNavPaneExpand             # DisableNavPaneExpand
 # ShowNavPaneAllFolders         # HideNavPaneAllFolders
 # ShowNavPaneLibraries          # HideNavPaneLibraries
@@ -193,15 +194,15 @@ SetExplorerThisPC               # SetExplorerQuickAccess
 HideQuickAccess                 # ShowQuickAccess
 HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
-#ShowUserFolderOnDesktop       
+# ShowUserFolderOnDesktop       
 HideUserFolderFromDesktop
-#ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
-#ShowNetworkOnDesktop          # HideNetworkFromDesktop
-#HideDesktopIcons              
+# ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
+# ShowNetworkOnDesktop          # HideNetworkFromDesktop
+# HideDesktopIcons              
 ShowDesktopIcons
 ShowBuildNumberOnDesktop      # HideBuildNumberFromDesktop
 HideDesktopFromThisPC          # ShowDesktopInThisPC
-#HideDesktopFromExplorer       
+# HideDesktopFromExplorer       
 ShowDesktopInExplorer
 HideDocumentsFromThisPC         # ShowDocumentsInThisPC
 HideDocumentsFromExplorer     
